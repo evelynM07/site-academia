@@ -1,0 +1,63 @@
+
+
+:root {
+    --vermelho: rgb(210, 10, 10);
+    --cinzafundo: rgba(56, 55, 55);
+    --cinzaaula: rgb(0, 0, 0, 0.952);
+    --branco: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--cinzafundo);
+}
+
+.titulo {
+    padding: 1%;
+}
+
+.nomeaula {
+    color: var(--vermelho);
+    font-size:150%;
+}
+
+.aulas {
+    font-weight: bolder;
+}
+
+.programas {
+    color: var(--branco);
+}
+
+.quadradoaulas {
+    display: flex;
+    flex-wrap:wrap;
+    gap: 10px;
+    justify-content: space-around;
+    
+}
+
+.quadradoaulas div {
+    background-color: var(--cinzaaula);
+    padding: 30px;
+    border-radius: 10px;
+
+}
+
+.div2{
+
+}
+
+.botao{
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: red;
+    color:white;
+    transition: 0.3s ease, 0.3s ease;
+    cursor: pointer;
+}
+.botao:hover{
+    transform: scale(1.05);
+    background-color: salmon;
+}
+    
