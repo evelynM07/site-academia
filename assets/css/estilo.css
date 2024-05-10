@@ -103,8 +103,46 @@ body .div2 button {
 
 body .div3 {
     color: white;
+    display: flex;
 }
 
 body .div3 a {
     color: white;
+}
+
+body .div3 .ul1 {
+    
+    padding-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+body .div3 .ul2 {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+body .div3 .ul1 li {
+    padding-top: 10px;
+}
+
+body .div3 .ul2 li {
+    padding-top: 10px;
+}
+
+body .div3 .imagens {
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+body .div3 .imagens img{
+    width: 30px;
+}
+
+body .div3 .imagens img:hover {
+    width: 30px;
+    transform: scale(1.2);
 }
