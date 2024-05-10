@@ -118,4 +118,54 @@ body {
     transform: scale(1.05);
     background-color: salmon;
 }
+
+footer {
+    background: black;
+    margin-top: 20px;
+}
+
+body footer .div3 {
+    color: white;
+    display: flex;
+}
+
+body footer .div3 a {
+    color: white;
+}
+
+body footer .div3 .ul1 {
     
+    padding-left: 100px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+}
+
+body footer .div3 .ul2 {
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+body footer .div3 .ul1 li {
+    padding-top: 10px;
+}
+
+body footer .div3 .ul2 li {
+    padding-top: 2px;
+}
+
+body footer .div3 .imagens {
+    display: flex;
+    gap: 40px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+body footer .div3 .imagens img{
+    width: 30px;
+}
+
+body footer .div3 .imagens img:hover {
+    width: 30px;
+    transform: scale(1.2);
+}
