@@ -1,10 +1,10 @@
 
-
 :root {
     --vermelho: rgb(210, 10, 10);
     --cinzafundo: rgba(56, 55, 55);
-    --cinzaaula: rgb(0, 0, 0, 0.952);
+    --pretoaula: rgb(0, 0, 0, 0.952);
     --branco: rgb(255, 255, 255);
+    --brancoescuro: rgba(255, 255, 255, 0.854);
 }
 
 body {
@@ -12,20 +12,32 @@ body {
 }
 
 .titulo {
-    padding: 1%;
+    text-align: center;
+    font-size: 2em;
+    color: var(--branco);
+}
+
+.titulo1 {
+    font-size: 3em;
+    text-align: center;
+    color: var(--vermelho);
 }
 
 .nomeaula {
     color: var(--vermelho);
     font-size:150%;
+    padding-right: ;
+    text-align: center;
 }
 
 .aulas {
     font-weight: bolder;
+    color: var(--branco);
+    text-align: center;
 }
 
 .programas {
-    color: var(--branco);
+    color: var(--brancoescuro);
 }
 
 .quadradoaulas {
@@ -37,14 +49,13 @@ body {
 }
 
 .quadradoaulas div {
-    background-color: var(--cinzaaula);
+    background-color: var(--pretoaula);
     padding: 30px;
     border-radius: 10px;
-
 }
 
-.div2{
-
+.quadradoaulas .div2 {
+    padding-right: 1px;
 }
 
 .botao{
@@ -55,6 +66,9 @@ body {
     color:white;
     transition: 0.3s ease, 0.3s ease;
     cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    
 }
 .botao:hover{
     transform: scale(1.05);
