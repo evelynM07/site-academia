@@ -2,20 +2,65 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+:root {
+    --branco: white;
+    --preto: black;
+    --vermelho: red;
+}
+
+
+header {
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .nav1 a{
+    color: white;
+    padding-left: 40px;
+    font-size: 15px;
+    font-weight: bolder;
+    letter-spacing: 1px;
+
+}
+
+header .nav1 a:hover {
+    text-decoration: underline;
+}
+
+header button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: 20px;
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: bolder;
+
 }
 
 /* TITULO */
 
 .T1{
     text-align: center;
-    font-size: xx-large;
+    font-size: x-large;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    margin-top: 30px;
+    margin-top: 50px;
     border-radius: 100px;
     background-color: red;
-    margin-left: 450px;
-    margin-right: 450px;
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 .T2{
@@ -31,12 +76,9 @@
     font-weight: bolder;
     padding-left: 20px;
     padding-right: 20px;
-
-    
 }
 
 /* COLUNAS */
-
 .DM .div1{
     background-color: lightgray;
     color: black;
@@ -45,10 +87,10 @@
     font-weight: bolder;
     border-radius: 20px;
     background-color: white;
-    padding: 10px;  
+    padding: 20px;  
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 150px;
+    margin-bottom: 50px;
 }
 
 .DM .div2{
@@ -64,7 +106,7 @@
     margin-right: 20px;
     border-style: solid;
     color: red ;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .DM .div3{
@@ -78,7 +120,7 @@
     padding: 20px;  
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .DM .div4{
@@ -104,8 +146,9 @@
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 155px;
 }
 
 .DM .div2 .BT{
@@ -113,10 +156,11 @@
     background-color: red;
     border-radius: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 70px;
 }
 
 .DM .div3 .BT{
@@ -126,8 +170,9 @@
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 95px;
 }
 
 .DM .div4 .BT{
@@ -137,14 +182,15 @@
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 30px;
     padding-right: 30px;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
 }
 
 /* TELA DE FUNDO */
 
 .fundo{
-    background-color: lightgray;
+    background-color: rgb(56, 55, 55);
 }
 
 .RC{
